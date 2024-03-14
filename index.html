@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="middle">
+        <h1>mini temperature Calculater</h1>
+    </div>
+ <div class="converter">
+    <h2>Temperature Converter</h2>
+    <label for="fromunit">From:</label>
+    <select name="" id="fromunit">
+        <option value="C">Celsius</option>
+        <option value="F">Fahrenheit</option>
+        <option value="K">Kelvin</option>
+        <option value="R">Rankine</option>
+    </select>
+    <label for="tounit">To:</label>
+    <select name="" id="tounit">
+        <option value="C">Celsius</option>
+        <option value="F">Fahrenheit</option>
+        <option value="K">Kelvin</option>
+        <option value="R">Rankine</option>
+    </select>
+    <label for="temperature">Temperature</label>
+    <input type="number" name="" id="temperature" placeholder="Enter Temperature">
+    <button onclick="convert()">Convert</button>
+    <label for="result">Result:</label>
+    <input type="text" name="" id="result" readonly>
+ </div>
+ <script src="index.js"></script>
+ 
+</body>
+</html>
